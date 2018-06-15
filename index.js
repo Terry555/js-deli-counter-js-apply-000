@@ -20,6 +20,6 @@ function currentLine(line){
     return "There is nobody in line.";
   }
   else {
-    return 
+    return
   }
 }
