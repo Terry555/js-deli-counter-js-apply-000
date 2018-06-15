@@ -17,7 +17,7 @@ function nowServing(line){
 
 function currentLine(line){
   if (line.length < 1){
-    return "There is nobody in line.";
+    return "The line is currently empty.";
   }
   else {
     return
