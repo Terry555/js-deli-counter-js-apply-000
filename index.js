@@ -22,7 +22,7 @@ function currentLine(line){
   }
   else {
     for (var i=0; i < line.length; i++){
-      whatever.push((i+1) + ". " + line[i] + ", ");
+      whatever += (i+1) + ". " + line[i] + ", ";
     }
     whatever = whatever.slice(0, whatever.length-2)
   }
