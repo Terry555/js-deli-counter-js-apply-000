@@ -16,15 +16,15 @@ function nowServing(line){
 }
 
 function currentLine(line){
-  var whatever = [];
+  var finalLine = [];
   if (line.length < 1){
     return "The line is currently empty.";
   }
   else {
     for (var i=0; i < line.length; i++){
-      whatever += (i+1) + ". " + line[i] + ", ";
+      finalLine += (i+1) + ". " + line[i] + ", ";
     }
-    whatever = whatever.slice(0, whatever.length-2)
+    finalLine = finalLine.slice(0, finalLine.length-2)
   }
-  return "The line is currently: " + whatever;
+  return "The line is currently: " + finalLine;
 }
