@@ -15,3 +15,4 @@ function nowServing(line, name){
     return "Currently serving " + name + ".";
   }
 }
+function nowServing(katzDeliLine, Steven)
