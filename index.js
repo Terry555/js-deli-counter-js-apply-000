@@ -6,4 +6,4 @@ function takeANumber(line, name){
   " in line."
 }
 
-takeANumber(katzDeliLine, "Ada")
+takeANumber(katzDeli, "Ada")
