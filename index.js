@@ -22,8 +22,9 @@ function currentLine(line){
   }
   else {
     for (i=0; i < line.length; i++){
-      return "The line is currently: " + (i+1) + ". " + line[i];
+      whatever.push((i+1) + ". " + line[i] + ", ");
     }
-
+    whatever = whatever.slice(0, whatever.length-2)
   }
+  return "The line is currently: " + whatever;
 }
