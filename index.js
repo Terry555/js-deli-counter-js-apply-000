@@ -8,7 +8,7 @@ function takeANumber(line, name){
 
 function nowServing(line){
   line.shift();
-  if (line.length > 0){
+  if (line.length < 1){
     return "There is nobody waiting to be served!";
   }
   else {
