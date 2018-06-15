@@ -6,13 +6,11 @@ function takeANumber(line, name){
   " in line."
 }
 
-function nowServing(line, name){
-  line.shift(name);
+function nowServing(line){
   if (line.length < 1){
     return "There is nobody waiting to be served!";
   }
   else {
-    return "Currently serving " + name + ".";
+    return "Currently serving " + line.shift() + ".";
   }
 }
-function nowServing(katzDeliLine, Steven)
