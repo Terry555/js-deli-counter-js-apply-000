@@ -14,3 +14,12 @@ function nowServing(line){
     return "Currently serving " + line.shift() + ".";
   }
 }
+
+function currentLine(line){
+  if (line.length < 1){
+    return "There is nobody in line.";
+  }
+  else {
+    return 
+  }
+}
