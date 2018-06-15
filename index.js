@@ -22,7 +22,7 @@ function currentLine(line){
   else {
     var i;
     for (i=0; i < line.length; i++){
-      return "The line is currently: " + line.indexOf() + ". " line[i];
+      return "The line is currently: " + line.indexOf() + ". " + line[i];
     }
 
   }
